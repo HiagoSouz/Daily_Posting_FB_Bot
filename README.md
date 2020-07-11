@@ -13,7 +13,7 @@ We will use the packages 'Facebook' and 'Schedule' in this project. Import them 
 
 ## Function generateMessage()
 
-This bot will daily post a synonym for the word "No" on your page. Of course you can modify the content and adapt. All you need to do is modify the content of the 'message' variable.
+This bot will daily post a synonym for the word "Yes" on your page. Of course you can modify the content and adapt. All you need to do is modify the content of the 'message' variable.
 
 ## Inserting the Token
 
