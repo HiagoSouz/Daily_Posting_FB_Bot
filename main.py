@@ -3,7 +3,7 @@ import facebook
 import time
 import schedule
 
-def geraFrase():
+def messageGenerator():
     frases = ["Mas é óbvio que sim", "Com certeza", "O ritual foi cumprido hoje", "Si mi amigo", "Sì mio amico",
                   "Ja mein Freund", "да мой друг", "Claro que sim né", "Mandou com um duplo carpado", "Hoje ele mandou 2 em sequência",
                   "~Não", "Opa","Sim, meu patrão", "Mandou assim que acordou", "Mandou por video-chamada"]
@@ -16,8 +16,8 @@ def postToFacebook(token,message="Hello"):
     print(f"Postou com sucesso n° {post_id}")
 
 def job():
-    token = "" ##Insira seu Token de acesso aqui
-    message = geraFrase()
+    token = "" ##Insert your token here
+    message = messageGenerator()
     postToFacebook(token,message)
 
 if __name__  == '__main__':
