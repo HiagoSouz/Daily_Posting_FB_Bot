@@ -23,6 +23,6 @@ In the line 19 you need to insert your token number.
 
 Now, in the line 24 you need to set you posting interval. Use hours or minutes and it's ready.
 
-## Sucess
+## Success
 
 Now your bot is working. :)
